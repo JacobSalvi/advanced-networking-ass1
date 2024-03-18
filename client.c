@@ -5,6 +5,9 @@
 #include <string.h>
 #include <libgen.h>
 #include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <unistd.h>
+#include <sys/socket.h>
 #include <netdb.h>
 #include <arpa/inet.h>
 
@@ -62,9 +65,11 @@ struct sockaddr_in create_socket_address(uint16_t port, char* address){
     return addr;
 }
 
-int create_connected_socket(struct sockaddr_in addr){
+int create_connected_socket(struct sockaddr_in addr, char* congestion_control_algorithm, int len){
     // TODO: consider separating into two functions.
     int fd = socket(AF_INET, SOCK_STREAM, 0);
+    // NOTE: mac os doesn't have this TCP_CONGESTION flag.
+    setsockopt(fd, IPPROTO_TCP, TCP_CONGESTION, congestion_control_algorithm, len);
     if (fd < 0) {
 	    perror("failed to create socket");
 	    exit(EXIT_FAILURE);
@@ -154,7 +159,7 @@ int main(int argc, char *argv[])
     }
 
     struct sockaddr_in socket_address = create_socket_address(port, server_address);
-    int tcp_fd = create_connected_socket(socket_address);
+    int tcp_fd = create_connected_socket(socket_address, congestion_control_algorithm, strlen(congestion_control_algorithm));
     char* random_bytes = create_random_bytes(bytes_to_send);
     if(random_bytes == NULL){
         perror("failed to connect to server");
