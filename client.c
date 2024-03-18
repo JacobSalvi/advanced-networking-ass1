@@ -4,6 +4,9 @@
 #include <errno.h>
 #include <string.h>
 #include <libgen.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <arpa/inet.h>
 
 #define DEFAULT_PORT 5000
 #define DEFAULT_SIZE 1000
@@ -35,7 +38,7 @@ void print_help(FILE *fp, const char *progname)
 
     fprintf(fp, "-p <port>, --port <port>\n");
     fprintf(fp, "                  The port to listen on (default: %u)\n", DEFAULT_PORT);
-    fprintf(fp, "-s <size>, --size <size>\n");
+    fprintf(fp, "-n <size>, --size <size>\n");
     fprintf(fp, "                  The number of pseudo-random bytes to send to the server (default: %u)\n", DEFAULT_SIZE);
     fprintf(fp, "-c <congestion>, --congestion <congestion>\n");
     fprintf(fp, "                  The TCP congestion control algorithm to use (default: %s)\n", DEFAULT_CONGESTION_CONTROL);
@@ -43,45 +46,84 @@ void print_help(FILE *fp, const char *progname)
     fprintf(fp, "                  Display this help and exit\n");
 }
 
+struct sockaddr_in create_socket_address(uint16_t port, char* address){
+    struct sockaddr_in addr = { 0 };
+    addr.sin_family = AF_INET;
+    addr.sin_port = htons(port);
+
+    if (inet_pton(AF_INET, address, &addr.sin_addr) <= 0) {
+	struct hostent *entry = gethostbyname(address);
+	if (!entry) {
+	    fputs("could not solve server address", stderr);
+	    exit(EXIT_FAILURE);
+	}
+    memcpy(&addr.sin_addr, entry->h_addr_list[0], sizeof(struct in_addr));
+    }
+    return addr;
+}
+
+int create_connected_socket(struct sockaddr_in addr){
+    // TODO: consider separating into two functions.
+    int fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (fd < 0) {
+	    perror("failed to create socket");
+	    exit(EXIT_FAILURE);
+    }
+
+    if (connect(fd, (struct sockaddr *) &addr, sizeof(addr)) < 0) {
+	    perror("failed to connect to server");
+	    close(fd);
+	    exit(EXIT_FAILURE);
+    }
+    return fd;
+}
+
+
+
 int main(int argc, char *argv[])
 {
     uint16_t port = DEFAULT_PORT;
     long bytes_to_send = DEFAULT_SIZE;
     char* congestion_control_algorithm = DEFAULT_CONGESTION_CONTROL;
     int opt, opt_index;
-    while (optind < argc) {
-        if ((opt = getopt_long(argc, argv, "p:n:c:h", cli_options, &opt_index)) != -1) {
-            switch (opt) {
-                case 'p':{
-                    long val = strtol(optarg, NULL, 10);
-                    if (errno || val <= 0 || val > UINT16_MAX)
-                    err_quit("Invalid port number provided");
-                    port = (uint16_t) val;
-                    break;
-                }
-                case 'n': {
-                    long size = strtol(optarg, NULL, 10);
-                    if (errno || size<=0){
-                        err_quit("Invalid bytes size to send");
-                    }
-                    bytes_to_send = size;
-                    break;
-                }
-                case 'c': {
-                    congestion_control_algorithm = strdup(optarg);
-                    break;
-                }
-                case 'h':
-                    print_help(stdout, argv[0]);
-                    return EXIT_SUCCESS;
-                default:
-                    print_help(stderr, argv[0]);
-                    return EXIT_FAILURE;
+    char * server_address = NULL;
+    while ((opt = getopt_long(argc, argv, "p:n:c:h", cli_options, &opt_index)) != -1) {
+        switch (opt) {
+            case 'p':{
+                long val = strtol(optarg, NULL, 10);
+                if (errno || val <= 0 || val > UINT16_MAX)
+                err_quit("Invalid port number provided");
+                port = (uint16_t) val;
+                break;
             }
-        } else {
-            print_help(stderr, argv[0]);
-            return EXIT_FAILURE;
+            case 'n': {
+                long size = strtol(optarg, NULL, 10);
+                if (errno || size<=0){
+                    err_quit("Invalid bytes size to send");
+                }
+                bytes_to_send = size;
+                break;
+            }
+            case 'c': {
+                congestion_control_algorithm = strdup(optarg);
+                break;
+            }
+            case 'h':
+                print_help(stdout, argv[0]);
+                return EXIT_SUCCESS;
+            default:
+                print_help(stderr, argv[0]);
+                return EXIT_FAILURE;
         }
     }
-    printf("%d, %ld, %s", port, bytes_to_send, congestion_control_algorithm);
+    if(argv[optind] == NULL){
+        print_help(stderr, argv[0]);
+        return EXIT_FAILURE;
+    }else{
+        server_address = argv[optind];
+    }
+
+
+    // server_address = argv[optind];
+    printf("%d, %ld, %s, %s", port, bytes_to_send, congestion_control_algorithm, server_address);
 }
