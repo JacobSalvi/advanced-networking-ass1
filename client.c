@@ -69,7 +69,11 @@ int create_connected_socket(struct sockaddr_in addr, char* congestion_control_al
     // TODO: consider separating into two functions.
     int fd = socket(AF_INET, SOCK_STREAM, 0);
     // NOTE: mac os doesn't have this TCP_CONGESTION flag.
-    setsockopt(fd, IPPROTO_TCP, TCP_CONGESTION, congestion_control_algorithm, len);
+    int res = setsockopt(fd, IPPROTO_TCP, TCP_CONGESTION, congestion_control_algorithm, len);
+    if(res==-1){
+        perror("Failed setting the congestion control algorithm");
+        exit(EXIT_FAILURE);
+    }
     if (fd < 0) {
 	    perror("failed to create socket");
 	    exit(EXIT_FAILURE);
@@ -147,7 +151,7 @@ int main(int argc, char *argv[])
                 print_help(stdout, argv[0]);
                 return EXIT_SUCCESS;
             default:
-                print_help(stderr, argv[0]);
+//                print_help(stderr, argv[0]);
                 return EXIT_FAILURE;
         }
     }
@@ -170,11 +174,11 @@ int main(int argc, char *argv[])
     }
     written(tcp_fd, random_bytes, bytes_to_send);
 
-    printf("%d, %ld, %s, %s", port, bytes_to_send, congestion_control_algorithm, server_address);
+//    printf("%d, %ld, %s, %s, %d", port, bytes_to_send, congestion_control_algorithm, server_address, tcp_fd);
 
     // clean up
     close(tcp_fd);
-    free(congestion_control_algorithm);
-    free(server_address);
+//    free(congestion_control_algorithm);
+//    free(server_address);
     return EXIT_SUCCESS;
 }
