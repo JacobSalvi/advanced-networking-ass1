@@ -78,6 +78,36 @@ int create_connected_socket(struct sockaddr_in addr){
     return fd;
 }
 
+char* create_random_bytes(int size){
+    char* random_bytes = malloc(size * sizeof(char));
+    if (random_bytes == NULL) {
+        return NULL;
+    }
+    for(size_t i =0; i<size; ++i){
+        random_bytes[i] = rand()%256;
+    }
+    return random_bytes;
+}
+
+
+ssize_t written(int fd, const char *buf, size_t len)
+{
+    ssize_t written;
+    while (len > 0) {
+        written = write(fd, buf, len);
+        if (written <= 0) {
+            if (written < 0 && errno == EINTR){
+                continue;
+            }
+            else{
+                return -1;
+            }
+        }
+        len -= written;
+        buf += written;
+    }
+    return len;
+}
 
 
 int main(int argc, char *argv[])
@@ -123,7 +153,23 @@ int main(int argc, char *argv[])
         server_address = argv[optind];
     }
 
+    struct sockaddr_in socket_address = create_socket_address(port, server_address);
+    int tcp_fd = create_connected_socket(socket_address);
+    char* random_bytes = create_random_bytes(bytes_to_send);
+    if(random_bytes == NULL){
+        perror("failed to connect to server");
+        close(tcp_fd);
+        free(congestion_control_algorithm);
+        free(server_address);
+        return EXIT_FAILURE;
+    }
+    written(tcp_fd, random_bytes, bytes_to_send);
 
-    // server_address = argv[optind];
     printf("%d, %ld, %s, %s", port, bytes_to_send, congestion_control_algorithm, server_address);
+
+    // clean up
+    close(tcp_fd);
+    free(congestion_control_algorithm);
+    free(server_address);
+    return EXIT_SUCCESS;
 }
