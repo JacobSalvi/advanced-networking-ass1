@@ -144,7 +144,7 @@ int main(int argc, char *argv[])
                 break;
             }
             case 'c': {
-                congestion_control_algorithm = strdup(optarg);
+                congestion_control_algorithm = optarg;
                 break;
             }
             case 'h':
@@ -168,17 +168,18 @@ int main(int argc, char *argv[])
     if(random_bytes == NULL){
         perror("failed to connect to server");
         close(tcp_fd);
-        free(congestion_control_algorithm);
-        free(server_address);
+        // free(congestion_control_algorithm);
+        // free(server_address);
         return EXIT_FAILURE;
     }
     written(tcp_fd, random_bytes, bytes_to_send);
+    free(random_bytes);
 
 //    printf("%d, %ld, %s, %s, %d", port, bytes_to_send, congestion_control_algorithm, server_address, tcp_fd);
 
     // clean up
     close(tcp_fd);
-//    free(congestion_control_algorithm);
+    // free(congestion_control_algorithm);
 //    free(server_address);
     return EXIT_SUCCESS;
 }
