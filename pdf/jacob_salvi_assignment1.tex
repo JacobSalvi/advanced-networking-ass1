@@ -1,0 +1,56 @@
+\documentclass{report}
+\usepackage{geometry}
+\usepackage{minted}
+\usepackage{hyperref}
+\geometry{margin=1in}
+
+
+
+
+\title{Advanced Networking: Assignment 1, Exploring Congestion Control}
+\author{Jacob Salvi}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\section*{Socket Programming}
+The code I wrote is largely based on the client server example showed in class by the teacher assistant Pasquale Polverino.\\ 
+Other than adding a few additional command line arguments my code did little more than create a function which creates a byte array of pseudo-random data and set the congestion control algorithm based on the argument received.\\
+
+\begin{minted}{C}
+char* create_random_bytes(int size){
+    char* random_bytes = malloc(size * sizeof(char));
+    if (random_bytes == NULL) {
+        return NULL;
+    }
+    for(size_t i =0; i<size; ++i){
+        random_bytes[i] = rand()%256;
+    }
+    return random_bytes;
+}
+\end{minted}
+
+\begin{minted}{C}
+// part of function create_connected_socket
+...
+int res = setsockopt(fd, IPPROTO_TCP, TCP_CONGESTION, congestion_control_algorithm, len);
+if(res==-1){
+    perror("Failed setting the congestion control algorithm");
+   exit(EXIT_FAILURE);
+}
+...
+\end{minted}
+The code was not particularly difficult to write, beside some initial confusion given by the fact that I had not written a C application in some years.\\
+The code, along with everything else for this assignment can be found at: \href{https://github.com/JacobSalvi/advanced-networking-ass1}{advanced-networking-ass1}
+
+\section*{Congestion control algorithm comparison}
+To study, compare and contrast different congestion control algorithm I have decided to test some of them with different combination of rate and data size sent.\\
+The host machine which I used to perform all of the following test is a MacBook pro 2023, equipped with a M2 Pro CPU 16 GB of Ram and running MacOS Sonoma 14.2.1. That said due, to the fact that the code needs to make use of some features of the linux kernel, the test have been performed using a virtual machine. I have used multipass version 1.13.1, with a virtual machine running ubuntu 22.04.4 LTS. I have passed 4 cpus to the VM, 6GB of Ram and 50 GB of disk.\\
+\section*{Issues}
+The rate limiter script begins with a shebang to /bin/sh, on ubuntu this is a symlink to dash. This leads to an issue since the 'function' keyword is not valid in dash but only in bash. To fix this issue I have changed the shebang to \#!/bin/bash.
+
+
+
+\end{document}

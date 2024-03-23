@@ -118,7 +118,7 @@ ssize_t written(int fd, const char *buf, size_t len)
     return len;
 }
 
-
+// Most of this code is based on the client server example showed in class by the teaching assistant Pasquale Polverino
 int main(int argc, char *argv[])
 {
     uint16_t port = DEFAULT_PORT;

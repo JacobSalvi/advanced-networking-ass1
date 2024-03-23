@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// part of function create\PYGZus{}connected\PYGZus{}socket}
+\PYG{p}{...}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{res}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{setsockopt}\PYG{p}{(}\PYG{n}{fd}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{IPPROTO\PYGZus{}TCP}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{TCP\PYGZus{}CONGESTION}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{congestion\PYGZus{}control\PYGZus{}algorithm}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{len}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{res}\PYG{o}{==}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{perror}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Failed setting the congestion control algorithm\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{   }\PYG{n}{exit}\PYG{p}{(}\PYG{n}{EXIT\PYGZus{}FAILURE}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{p}{...}
+\end{Verbatim}
