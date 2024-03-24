@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  22 MAR 2024 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  24 MAR 2024 18:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -321,7 +321,55 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip55
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen172
+\captionmargin=\dimen173
+\caption@leftmargin=\dimen174
+\caption@rightmargin=\dimen175
+\caption@width=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count306
+\c@continuedfloat=\count307
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count308
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count309
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -329,9 +377,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
@@ -350,30 +395,82 @@ runsystem(rm jacob_salvi_assignment1.aex)...executed.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
+\l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box60
 )
-(./jacob_salvi_assignment1.aux)
+(./jacob_salvi_assignment1.aux
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+
+LaTeX Warning: Label `fig:four_images' multiply defined.
+
+)
 \openout1 = `jacob_salvi_assignment1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -409,7 +506,7 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 17.
 (./jacob_salvi_assignment1.out) (./jacob_salvi_assignment1.out)
 \@outlinefile=\write5
 \openout5 = `jacob_salvi_assignment1.out'.
@@ -417,28 +514,39 @@ Package hyperref Info: Link coloring OFF on input line 15.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen170
+\scratchcounter=\count311
+\scratchdimen=\dimen180
 \scratchbox=\box61
-\nofMPsegments=\count308
-\nofMParguments=\count309
+\nofMPsegments=\count312
+\nofMParguments=\count313
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen171
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen181
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks23
-)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
- [1
+(Font)              <6> on input line 19.
+
+[1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
@@ -455,7 +563,36 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 
 (./_minted-jacob_salvi_assignment1/DC318708E84CC6DEE142F764B6BDFDBF538B643CCFD6
 42339B6951E022B3248B.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+<Pics/Cubic/r10mbit_s1000_ws.png, id=12, 913.4125pt x 685.56125pt>
+File: Pics/Cubic/r10mbit_s1000_ws.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s1000_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s1000_ws.png  used on input line 63
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.64862pt.
+<Pics/Cubic/r1mbit_s1000_ws.png, id=14, 909.3975pt x 684.5575pt>
+File: Pics/Cubic/r1mbit_s1000_ws.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1000_ws.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1000_ws.png  used on input line 69.
+
+(pdftex.def)             Requested size: 211.38832pt x 159.11618pt.
+<Pics/Cubic/r100kbit_s1000_ws.png, id=15, 916.42375pt x 683.55376pt>
+File: Pics/Cubic/r100kbit_s1000_ws.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s1000_ws.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s1000_ws.png  used on input line 7
+6.
+(pdftex.def)             Requested size: 211.38832pt x 157.67297pt.
+<Pics/Cubic/r10kbit_s1000_ws.png, id=16, 914.41624pt x 686.565pt>
+File: Pics/Cubic/r10kbit_s1000_ws.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s1000_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s1000_ws.png  used on input line 82
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.71329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--87
 
  []
 
@@ -464,8 +601,446 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \end{document}
-                    [1] (./jacob_salvi_assignment1.aux)
+l.88 
+      [1]
+<Pics/Cubic/r10mbit_s1000_rtt.png, id=27, 915.42pt x 683.55376pt>
+File: Pics/Cubic/r10mbit_s1000_rtt.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s1000_rtt.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s1000_rtt.png  used on input line 9
+4.
+(pdftex.def)             Requested size: 211.38832pt x 157.83986pt.
+<Pics/Cubic/r1mbit_s1000_rtt.png, id=28, 911.405pt x 683.55376pt>
+File: Pics/Cubic/r1mbit_s1000_rtt.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1000_rtt.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1000_rtt.png  used on input line 10
+0.
+(pdftex.def)             Requested size: 211.38832pt x 158.53868pt.
+<Pics/Cubic/r100kbit_s1000_rtt.png, id=29, 910.40125pt x 684.5575pt>
+File: Pics/Cubic/r100kbit_s1000_rtt.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s1000_rtt.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s1000_rtt.png  used on input line 
+107.
+(pdftex.def)             Requested size: 211.38832pt x 158.94905pt.
+<Pics/Cubic/r10kbit_s1000_rtt.png, id=30, 913.4125pt x 685.56125pt>
+File: Pics/Cubic/r10kbit_s1000_rtt.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s1000_rtt.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s1000_rtt.png  used on input line 1
+13.
+(pdftex.def)             Requested size: 211.38832pt x 158.64862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--118
+
+ []
+
+[2 <./Pics/Cubic/r10mbit_s1000_ws.png> <./Pics/Cubic/r1mbit_s1000_ws.png> <./Pi
+cs/Cubic/r100kbit_s1000_ws.png> <./Pics/Cubic/r10kbit_s1000_ws.png>]
+<Pics/Cubic/r10mbit_s100k_ws.png, id=41, 913.4125pt x 682.55pt>
+File: Pics/Cubic/r10mbit_s100k_ws.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s100k_ws.png  used on input line 12
+6.
+(pdftex.def)             Requested size: 211.38832pt x 157.95178pt.
+<Pics/Cubic/r1mbit_s100k_ws.png, id=42, 912.40875pt x 684.5575pt>
+File: Pics/Cubic/r1mbit_s100k_ws.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s100k_ws.png  used on input line 132
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.5939pt.
+<Pics/Cubic/r100kbit_s100k_ws.png, id=43, 911.405pt x 685.56125pt>
+File: Pics/Cubic/r100kbit_s100k_ws.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s100k_ws.png  used on input line 1
+39.
+(pdftex.def)             Requested size: 211.38832pt x 159.00429pt.
+<Pics/Cubic/r10kbit_s100kbit_ws.png, id=44, 913.4125pt x 679.53876pt>
+File: Pics/Cubic/r10kbit_s100kbit_ws.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s100kbit_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s100kbit_ws.png  used on input line
+ 145.
+(pdftex.def)             Requested size: 211.38832pt x 157.25493pt.
+ [3 <./Pics/Cubic/r10mbit_s1000_rtt.png> <./Pics/Cubic/r1mbit_s1000_rtt.png> <.
+/Pics/Cubic/r100kbit_s1000_rtt.png> <./Pics/Cubic/r10kbit_s1000_rtt.png>]
+<Pics/Cubic/r10mbit_s100k_th.png, id=54, 909.3975pt x 682.55pt>
+File: Pics/Cubic/r10mbit_s100k_th.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s100k_th.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s100k_th.png  used on input line 15
+7.
+(pdftex.def)             Requested size: 211.38832pt x 158.64957pt.
+<Pics/Cubic/r1mbit_s100k_th.png, id=55, 909.3975pt x 680.5425pt>
+File: Pics/Cubic/r1mbit_s100k_th.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s100k_th.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s100k_th.png  used on input line 163
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.18295pt.
+<Pics/Cubic/r100kbit_s100k_th.png, id=56, 909.3975pt x 679.53876pt>
+File: Pics/Cubic/r100kbit_s100k_th.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s100k_th.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s100k_th.png  used on input line 1
+70.
+(pdftex.def)             Requested size: 211.38832pt x 157.94965pt.
+<Pics/Cubic/r10kbit_s100kbit_th.png, id=57, 908.39375pt x 681.54625pt>
+File: Pics/Cubic/r10kbit_s100kbit_th.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s100kbit_th.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s100kbit_th.png  used on input line
+ 176.
+(pdftex.def)             Requested size: 211.38832pt x 158.59305pt.
+ [4 <./Pics/Cubic/r10mbit_s100k_ws.png> <./Pics/Cubic/r1mbit_s100k_ws.png> <./P
+ics/Cubic/r100kbit_s100k_ws.png> <./Pics/Cubic/r10kbit_s100kbit_ws.png>]
+<Pics/Cubic/r10mbit_s1m_ws.png, id=67, 921.4425pt x 681.54625pt>
+File: Pics/Cubic/r10mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s1m_ws.png  used on input line 188.
+
+(pdftex.def)             Requested size: 211.38832pt x 156.34676pt.
+<Pics/Cubic/r1mbit_s1m_ws.png, id=68, 913.4125pt x 685.56125pt>
+File: Pics/Cubic/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1m_ws.png  used on input line 194.
+(pdftex.def)             Requested size: 211.38832pt x 158.64862pt.
+<Pics/Cubic/r100kbit_s1m_ws.png, id=69, 911.405pt x 682.55pt>
+File: Pics/Cubic/r100kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s1m_ws.png  used on input line 201
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.30588pt.
+<Pics/Cubic/r10kbit_s1m_ws.png, id=70, 911.405pt x 685.56125pt>
+File: Pics/Cubic/r10kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s1m_ws.png  used on input line 207.
+
+(pdftex.def)             Requested size: 211.38832pt x 159.00429pt.
+ [5 <./Pics/Cubic/r10mbit_s100k_th.png> <./Pics/Cubic/r1mbit_s100k_th.png> <./P
+ics/Cubic/r100kbit_s100k_th.png> <./Pics/Cubic/r10kbit_s100kbit_th.png>]
+<Pics/Cubic/r10mbit_s1m_th.png, id=80, 915.42pt x 681.54625pt>
+File: Pics/Cubic/r10mbit_s1m_th.png Graphic file (type png)
+<use Pics/Cubic/r10mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Cubic/r10mbit_s1m_th.png  used on input line 218.
+
+(pdftex.def)             Requested size: 211.38832pt x 157.37631pt.
+<Pics/Cubic/r1mbit_s1m_th.png, id=81, 912.40875pt x 679.53876pt>
+File: Pics/Cubic/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1m_th.png  used on input line 224.
+(pdftex.def)             Requested size: 211.38832pt x 157.4312pt.
+<Pics/Cubic/r100kbit_s1m_th.png, id=82, 916.42375pt x 684.5575pt>
+File: Pics/Cubic/r100kbit_s1m_th.png Graphic file (type png)
+<use Pics/Cubic/r100kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Cubic/r100kbit_s1m_th.png  used on input line 231
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.90451pt.
+<Pics/Cubic/r10kbit_s1m_th.png, id=83, 912.40875pt x 677.53125pt>
+File: Pics/Cubic/r10kbit_s1m_th.png Graphic file (type png)
+<use Pics/Cubic/r10kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Cubic/r10kbit_s1m_th.png  used on input line 237.
+
+(pdftex.def)             Requested size: 211.38832pt x 156.96611pt.
+ [6 <./Pics/Cubic/r10mbit_s1m_ws.png> <./Pics/Cubic/r1mbit_s1m_ws.png> <./Pics/
+Cubic/r100kbit_s1m_ws.png> <./Pics/Cubic/r10kbit_s1m_ws.png>]
+<Pics/Reno/r10mbit_s100k_th.png, id=94, 915.42pt x 682.55pt>
+File: Pics/Reno/r10mbit_s100k_th.png Graphic file (type png)
+<use Pics/Reno/r10mbit_s100k_th.png>
+Package pdftex.def Info: Pics/Reno/r10mbit_s100k_th.png  used on input line 255
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.6081pt.
+<Pics/Reno/r1mbit_s100k_th.png, id=95, 911.405pt x 683.55376pt>
+File: Pics/Reno/r1mbit_s100k_th.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s100k_th.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s100k_th.png  used on input line 261.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.53868pt.
+<Pics/Reno/r100kbit_s100k_th.png, id=96, 907.39pt x 684.5575pt>
+File: Pics/Reno/r100kbit_s100k_th.png Graphic file (type png)
+<use Pics/Reno/r100kbit_s100k_th.png>
+Package pdftex.def Info: Pics/Reno/r100kbit_s100k_th.png  used on input line 26
+8.
+(pdftex.def)             Requested size: 211.38832pt x 159.47133pt.
+<Pics/Reno/r10kbit_s100k_th.png, id=97, 912.40875pt x 679.53876pt>
+File: Pics/Reno/r10kbit_s100k_th.png Graphic file (type png)
+<use Pics/Reno/r10kbit_s100k_th.png>
+Package pdftex.def Info: Pics/Reno/r10kbit_s100k_th.png  used on input line 274
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.4312pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--279
+
+ []
+
+[7 <./Pics/Cubic/r10mbit_s1m_th.png> <./Pics/Cubic/r1mbit_s1m_th.png> <./Pics/C
+ubic/r100kbit_s1m_th.png> <./Pics/Cubic/r10kbit_s1m_th.png>]
+<Pics/Reno/r10mbit_s100k_ws.png, id=108, 913.4125pt x 678.535pt>
+File: Pics/Reno/r10mbit_s100k_ws.png Graphic file (type png)
+<use Pics/Reno/r10mbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Reno/r10mbit_s100k_ws.png  used on input line 285
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.02264pt.
+<Pics/Reno/r1mbit_s100k_ws.png, id=109, 915.42pt x 682.55pt>
+File: Pics/Reno/r1mbit_s100k_ws.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s100k_ws.png  used on input line 291.
+
+(pdftex.def)             Requested size: 211.38832pt x 157.6081pt.
+<Pics/Reno/r100kbit_s100k_ws.png, id=110, 908.39375pt x 678.535pt>
+File: Pics/Reno/r100kbit_s100k_ws.png Graphic file (type png)
+<use Pics/Reno/r100kbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Reno/r100kbit_s100k_ws.png  used on input line 29
+8.
+(pdftex.def)             Requested size: 211.38832pt x 157.89235pt.
+<Pics/Reno/r10kbit_s100k_ws.png, id=111, 913.4125pt x 680.5425pt>
+File: Pics/Reno/r10kbit_s100k_ws.png Graphic file (type png)
+<use Pics/Reno/r10kbit_s100k_ws.png>
+Package pdftex.def Info: Pics/Reno/r10kbit_s100k_ws.png  used on input line 304
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.48721pt.
+ [8 <./Pics/Reno/r10mbit_s100k_th.png> <./Pics/Reno/r1mbit_s100k_th.png> <./Pic
+s/Reno/r100kbit_s100k_th.png> <./Pics/Reno/r10kbit_s100k_th.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+<Pics/Reno/r10mbit_s1m_ws.png, id=121, 910.40125pt x 680.5425pt>
+File: Pics/Reno/r10mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Reno/r10mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Reno/r10mbit_s1m_ws.png  used on input line 316.
+(pdftex.def)             Requested size: 211.38832pt x 158.0168pt.
+<Pics/Reno/r1mbit_s1m_ws.png, id=122, 915.42pt x 681.54625pt>
+File: Pics/Reno/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s1m_ws.png  used on input line 322.
+(pdftex.def)             Requested size: 211.38832pt x 157.37631pt.
+<Pics/Reno/r100kbit_s1m_ws.png, id=123, 913.4125pt x 682.55pt>
+File: Pics/Reno/r100kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Reno/r100kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Reno/r100kbit_s1m_ws.png  used on input line 329.
+
+(pdftex.def)             Requested size: 211.38832pt x 157.95178pt.
+<Pics/Reno/r10kbit_s1m_ws.png, id=124, 908.39375pt x 681.54625pt>
+File: Pics/Reno/r10kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Reno/r10kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Reno/r10kbit_s1m_ws.png  used on input line 335.
+(pdftex.def)             Requested size: 211.38832pt x 158.59305pt.
+[9 <./Pics/Reno/r10mbit_s100k_ws.png> <./Pics/Reno/r1mbit_s100k_ws.png> <./Pics
+/Reno/r100kbit_s100k_ws.png> <./Pics/Reno/r10kbit_s100k_ws.png>]
+<Pics/Reno/r10mbit_s1m_th.png, id=134, 912.40875pt x 677.53125pt>
+File: Pics/Reno/r10mbit_s1m_th.png Graphic file (type png)
+<use Pics/Reno/r10mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Reno/r10mbit_s1m_th.png  used on input line 346.
+(pdftex.def)             Requested size: 211.38832pt x 156.96611pt.
+<Pics/Reno/r1mbit_s1m_th.png, id=135, 912.40875pt x 686.565pt>
+File: Pics/Reno/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s1m_th.png  used on input line 352.
+(pdftex.def)             Requested size: 211.38832pt x 159.05899pt.
+<Pics/Reno/r100kbit_s1m_th.png, id=136, 911.405pt x 679.53876pt>
+File: Pics/Reno/r100kbit_s1m_th.png Graphic file (type png)
+<use Pics/Reno/r100kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Reno/r100kbit_s1m_th.png  used on input line 359.
+
+(pdftex.def)             Requested size: 211.38832pt x 157.60748pt.
+<Pics/Reno/r10kbit_s1m_th.png, id=137, 904.37875pt x 662.475pt>
+File: Pics/Reno/r10kbit_s1m_th.png Graphic file (type png)
+<use Pics/Reno/r10kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Reno/r10kbit_s1m_th.png  used on input line 365.
+(pdftex.def)             Requested size: 211.38832pt x 154.84264pt.
+ [10 <./Pics/Reno/r10mbit_s1m_ws.png> <./Pics/Reno/r1mbit_s1m_ws.png> <./Pics/R
+eno/r100kbit_s1m_ws.png> <./Pics/Reno/r10kbit_s1m_ws.png>] [11 <./Pics/Reno/r10
+mbit_s1m_th.png> <./Pics/Reno/r1mbit_s1m_th.png> <./Pics/Reno/r100kbit_s1m_th.p
+ng> <./Pics/Reno/r10kbit_s1m_th.png>]
+<Pics/Vegas/r10mbit_s1m_ws.png, id=157, 906.38625pt x 684.5575pt>
+File: Pics/Vegas/r10mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Vegas/r10mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Vegas/r10mbit_s1m_ws.png  used on input line 393.
+
+(pdftex.def)             Requested size: 211.38832pt x 159.64891pt.
+<Pics/Vegas/r1mbit_s1m_ws.png, id=158, 912.40875pt x 681.54625pt>
+File: Pics/Vegas/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_ws.png  used on input line 399.
+(pdftex.def)             Requested size: 211.38832pt x 157.89629pt.
+<Pics/Vegas/r100kbit_s1m_ws.png, id=159, 911.405pt x 686.565pt>
+File: Pics/Vegas/r100kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Vegas/r100kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Vegas/r100kbit_s1m_ws.png  used on input line 406
+.
+(pdftex.def)             Requested size: 211.38832pt x 159.23709pt.
+<Pics/Vegas/r10kbit_s1m_ws.png, id=160, 908.39375pt x 679.53876pt>
+File: Pics/Vegas/r10kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Vegas/r10kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Vegas/r10kbit_s1m_ws.png  used on input line 412.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.12592pt.
+<Pics/Vegas/r10mbit_s1m_th.png, id=161, 908.39375pt x 677.53125pt>
+File: Pics/Vegas/r10mbit_s1m_th.png Graphic file (type png)
+<use Pics/Vegas/r10mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Vegas/r10mbit_s1m_th.png  used on input line 423.
+
+(pdftex.def)             Requested size: 211.38832pt x 157.65878pt.
+<Pics/Vegas/r1mbit_s1m_th.png, id=162, 913.4125pt x 679.53876pt>
+File: Pics/Vegas/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_th.png  used on input line 429.
+(pdftex.def)             Requested size: 211.38832pt x 157.25493pt.
+<Pics/Vegas/r100kbit_s1m_th.png, id=163, 907.39pt x 677.53125pt>
+File: Pics/Vegas/r100kbit_s1m_th.png Graphic file (type png)
+<use Pics/Vegas/r100kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Vegas/r100kbit_s1m_th.png  used on input line 436
+.
+(pdftex.def)             Requested size: 211.38832pt x 157.83453pt.
+<Pics/Vegas/r10kbit_s1m_th.png, id=164, 907.39pt x 680.5425pt>
+File: Pics/Vegas/r10kbit_s1m_th.png Graphic file (type png)
+<use Pics/Vegas/r10kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Vegas/r10kbit_s1m_th.png  used on input line 442.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.53601pt.
+ [12 <./Pics/Vegas/r10mbit_s1m_ws.png> <./Pics/Vegas/r1mbit_s1m_ws.png> <./Pics
+/Vegas/r100kbit_s1m_ws.png> <./Pics/Vegas/r10kbit_s1m_ws.png>]
+<Pics/Vegas/r10mbit_s1m_rtt.png, id=175, 906.38625pt x 683.55376pt>
+File: Pics/Vegas/r10mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Vegas/r10mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Vegas/r10mbit_s1m_rtt.png  used on input line 453
+.
+(pdftex.def)             Requested size: 211.38832pt x 159.41483pt.
+<Pics/Vegas/r1mbit_s1m_rtt.png, id=176, 906.38625pt x 679.53876pt>
+File: Pics/Vegas/r1mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_rtt.png  used on input line 459.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.47847pt.
+<Pics/Vegas/r100kbit_s1m_rtt.png, id=177, 911.405pt x 684.5575pt>
+File: Pics/Vegas/r100kbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Vegas/r100kbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Vegas/r100kbit_s1m_rtt.png  used on input line 46
+6.
+(pdftex.def)             Requested size: 211.38832pt x 158.77148pt.
+<Pics/Vegas/r10kbit_s1m_rtt.png, id=178, 907.39pt x 681.54625pt>
+File: Pics/Vegas/r10kbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Vegas/r10kbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Vegas/r10kbit_s1m_rtt.png  used on input line 472
+.
+(pdftex.def)             Requested size: 211.38832pt x 158.76985pt.
+ [13 <./Pics/Vegas/r10mbit_s1m_th.png> <./Pics/Vegas/r1mbit_s1m_th.png> <./Pics
+/Vegas/r100kbit_s1m_th.png> <./Pics/Vegas/r10kbit_s1m_th.png>]
+<Pics/Westwood/r10mbit_s1m_ws.png, id=188, 909.3975pt x 675.52374pt>
+File: Pics/Westwood/r10mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Westwood/r10mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Westwood/r10mbit_s1m_ws.png  used on input line 5
+01.
+(pdftex.def)             Requested size: 211.38832pt x 157.01642pt.
+<Pics/Westwood/r1mbit_s1m_ws.png, id=189, 914.41624pt x 678.535pt>
+File: Pics/Westwood/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Westwood/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Westwood/r1mbit_s1m_ws.png  used on input line 50
+7.
+(pdftex.def)             Requested size: 211.38832pt x 156.857pt.
+<Pics/Westwood/r100kbit_s1m_ws.png, id=190, 904.37875pt x 680.5425pt>
+File: Pics/Westwood/r100kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Westwood/r100kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Westwood/r100kbit_s1m_ws.png  used on input line 
+514.
+(pdftex.def)             Requested size: 211.38832pt x 159.06561pt.
+<Pics/Westwood/r10kbit_s1m_ws.png, id=191, 912.40875pt x 683.55376pt>
+File: Pics/Westwood/r10kbit_s1m_ws.png Graphic file (type png)
+<use Pics/Westwood/r10kbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Westwood/r10kbit_s1m_ws.png  used on input line 5
+20.
+(pdftex.def)             Requested size: 211.38832pt x 158.36137pt.
+ [14 <./Pics/Vegas/r10mbit_s1m_rtt.png> <./Pics/Vegas/r1mbit_s1m_rtt.png> <./Pi
+cs/Vegas/r100kbit_s1m_rtt.png> <./Pics/Vegas/r10kbit_s1m_rtt.png>]
+<Pics/Westwood/r10mbit_s1m_th.png, id=203, 913.4125pt x 683.55376pt>
+File: Pics/Westwood/r10mbit_s1m_th.png Graphic file (type png)
+<use Pics/Westwood/r10mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Westwood/r10mbit_s1m_th.png  used on input line 5
+31.
+(pdftex.def)             Requested size: 211.38832pt x 158.18407pt.
+<Pics/Westwood/r1mbit_s1m_th.png, id=204, 905.3825pt x 682.55pt>
+File: Pics/Westwood/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Westwood/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Westwood/r1mbit_s1m_th.png  used on input line 53
+7.
+(pdftex.def)             Requested size: 211.38832pt x 159.35779pt.
+<Pics/Westwood/r100kbit_s1m_th.png, id=205, 905.3825pt x 677.53125pt>
+File: Pics/Westwood/r100kbit_s1m_th.png Graphic file (type png)
+<use Pics/Westwood/r100kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Westwood/r100kbit_s1m_th.png  used on input line 
+544.
+(pdftex.def)             Requested size: 211.38832pt x 158.18604pt.
+<Pics/Westwood/r10kbit_s1m_th.png, id=206, 926.46124pt x 685.56125pt>
+File: Pics/Westwood/r10kbit_s1m_th.png Graphic file (type png)
+<use Pics/Westwood/r10kbit_s1m_th.png>
+Package pdftex.def Info: Pics/Westwood/r10kbit_s1m_th.png  used on input line 5
+50.
+(pdftex.def)             Requested size: 211.38832pt x 156.42047pt.
+ [15 <./Pics/Westwood/r10mbit_s1m_ws.png> <./Pics/Westwood/r1mbit_s1m_ws.png> <
+./Pics/Westwood/r100kbit_s1m_ws.png> <./Pics/Westwood/r10kbit_s1m_ws.png>]
+File: Pics/Cubic/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1m_th.png  used on input line 566.
+(pdftex.def)             Requested size: 211.38832pt x 157.4312pt.
+File: Pics/Reno/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s1m_th.png  used on input line 572.
+(pdftex.def)             Requested size: 211.38832pt x 159.05899pt.
+File: Pics/Vegas/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_th.png  used on input line 579.
+(pdftex.def)             Requested size: 211.38832pt x 157.25493pt.
+File: Pics/Westwood/r1mbit_s1m_th.png Graphic file (type png)
+<use Pics/Westwood/r1mbit_s1m_th.png>
+Package pdftex.def Info: Pics/Westwood/r1mbit_s1m_th.png  used on input line 58
+5.
+(pdftex.def)             Requested size: 211.38832pt x 159.35779pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--590
+
+ []
+
+[16 <./Pics/Westwood/r10mbit_s1m_th.png> <./Pics/Westwood/r1mbit_s1m_th.png> <.
+/Pics/Westwood/r100kbit_s1m_th.png> <./Pics/Westwood/r10kbit_s1m_th.png>]
+<Pics/Cubic/r1mbit_s1m_rtt.png, id=226, 913.4125pt x 684.5575pt>
+File: Pics/Cubic/r1mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1m_rtt.png  used on input line 596.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.41634pt.
+<Pics/Reno/r1mbit_s1m_rtt.png, id=227, 911.405pt x 683.55376pt>
+File: Pics/Reno/r1mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s1m_rtt.png  used on input line 602.
+(pdftex.def)             Requested size: 211.38832pt x 158.53868pt.
+File: Pics/Vegas/r1mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_rtt.png  used on input line 609.
+
+(pdftex.def)             Requested size: 211.38832pt x 158.47847pt.
+<Pics/Westwood/r1mbit_s1m_rtt.png, id=228, 909.3975pt x 676.5275pt>
+File: Pics/Westwood/r1mbit_s1m_rtt.png Graphic file (type png)
+<use Pics/Westwood/r1mbit_s1m_rtt.png>
+Package pdftex.def Info: Pics/Westwood/r1mbit_s1m_rtt.png  used on input line 6
+15.
+(pdftex.def)             Requested size: 211.38832pt x 157.24973pt.
+
+[17]
+File: Pics/Cubic/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Cubic/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Cubic/r1mbit_s1m_ws.png  used on input line 626.
+(pdftex.def)             Requested size: 211.38832pt x 158.64862pt.
+File: Pics/Reno/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Reno/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Reno/r1mbit_s1m_ws.png  used on input line 632.
+(pdftex.def)             Requested size: 211.38832pt x 157.37631pt.
+File: Pics/Vegas/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Vegas/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Vegas/r1mbit_s1m_ws.png  used on input line 639.
+(pdftex.def)             Requested size: 211.38832pt x 157.89629pt.
+File: Pics/Westwood/r1mbit_s1m_ws.png Graphic file (type png)
+<use Pics/Westwood/r1mbit_s1m_ws.png>
+Package pdftex.def Info: Pics/Westwood/r1mbit_s1m_ws.png  used on input line 64
+5.
+(pdftex.def)             Requested size: 211.38832pt x 156.857pt.
+ [18 <./Pics/Cubic/r1mbit_s1m_rtt.png> <./Pics/Reno/r1mbit_s1m_rtt.png> <./Pics
+/Westwood/r1mbit_s1m_rtt.png>] [19] (./jacob_salvi_assignment1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `jacob_salvi_assignment1.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -473,23 +1048,25 @@ runsystem(rm jacob_salvi_assignment1.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 12103 strings out of 476025
- 209133 string characters out of 5790018
- 1858388 words of memory out of 5000000
- 32407 multiletter control sequences out of 15000+600000
- 516263 words of font info for 46 fonts, out of 8000000 for 9000
+ 14588 strings out of 476025
+ 266631 string characters out of 5790018
+ 1860388 words of memory out of 5000000
+ 34787 multiletter control sequences out of 15000+600000
+ 516869 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,6n,76p,496b,485s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,9n,77p,506b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on jacob_salvi_assignment1.pdf (2 pages, 83262 bytes).
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on jacob_salvi_assignment1.pdf (20 pages, 15335958 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
